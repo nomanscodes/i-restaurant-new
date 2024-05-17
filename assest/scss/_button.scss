@@ -1,0 +1,29 @@
+@import "./variables";
+
+input[type="submit"],
+input[type="reset"],
+ button {
+  --theme: var(--wtpi-primary);
+  display: inline-block;
+  height: 44px;
+  max-width: 350px;
+  min-width: 140px;
+  border: none;
+  border-radius: var(--wtpi-radius);
+  background-color: var(--theme);
+  color: var(--wtpi-white);
+  cursor: pointer;
+  font-size: var(--wtpi-font-size);
+  font-weight: var(--wtpi-font-weight);
+}
+
+
+// .primary-btn {
+//     --theme: var(--wtp-primary) !important;
+// }
+  
+// .secondary-btn {
+// --theme: var(--wtp-secondary) !important;
+// }
+
+  
