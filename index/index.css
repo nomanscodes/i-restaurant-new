@@ -4,8 +4,11 @@
 :root {
   --wtpi-primary: #ee2c29;
   --wtpi-primary-light:#EC5B57;
-  --wtpi-body-background: #FAFAFA;
+  --wtpi-body-background: #ffffff;
+  --wtpi-footer-bg: #222222;
   --wtpi-white: #ffffff;
+  --wtpi-bottom-header-bg: #FAFAFA;
+  --wtpi-light-text: #FAFAFA;
   --wtpi-text-primary: #EE312F;
   --wtpi-text-secondary: #333333;
   --wtpi-text-color: #222222;
@@ -14,10 +17,13 @@
   --wtpi-radius-sm: 10px;
   --wtpi-radius-md: 15px;
   --wtpi-radius-lg: 9999px;
-  --wtpi-spaceing:15px;
-  --wtpi-spaceing-sm:10px;
+  --wtpi-spaceing:10px;
+  --wtpi-spaceing-sm:15px;
   --wtpi-spaceing-md:20px;
+  --wtpi-spaceing-lg:25px;
+  --wtpi-header-link-spaceing: 44px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
+  --wtpi-font-size-xs: 13px;
   --wtpi-font-size: 16px;
   --wtpi-font-size-sm: 18px;
   --wtpi-font-size-md: 20px;
@@ -46,13 +52,13 @@ button {
   font-weight: var(--wtpi-font-weight);
 }
 
-.wtp-container {
+.wtpi-container {
   margin-left: auto;
   margin-right: auto;
   max-width: 1300px;
 }
 @media screen and (max-width: 1200px) {
-  .wtp-container {
+  .wtpi-container {
     width: 95%;
     margin: auto;
   }
@@ -61,8 +67,11 @@ button {
 :root {
   --wtpi-primary: #ee2c29;
   --wtpi-primary-light:#EC5B57;
-  --wtpi-body-background: #FAFAFA;
+  --wtpi-body-background: #ffffff;
+  --wtpi-footer-bg: #222222;
   --wtpi-white: #ffffff;
+  --wtpi-bottom-header-bg: #FAFAFA;
+  --wtpi-light-text: #FAFAFA;
   --wtpi-text-primary: #EE312F;
   --wtpi-text-secondary: #333333;
   --wtpi-text-color: #222222;
@@ -71,10 +80,13 @@ button {
   --wtpi-radius-sm: 10px;
   --wtpi-radius-md: 15px;
   --wtpi-radius-lg: 9999px;
-  --wtpi-spaceing:15px;
-  --wtpi-spaceing-sm:10px;
+  --wtpi-spaceing:10px;
+  --wtpi-spaceing-sm:15px;
   --wtpi-spaceing-md:20px;
+  --wtpi-spaceing-lg:25px;
+  --wtpi-header-link-spaceing: 44px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
+  --wtpi-font-size-xs: 13px;
   --wtpi-font-size: 16px;
   --wtpi-font-size-sm: 18px;
   --wtpi-font-size-md: 20px;
@@ -114,8 +126,11 @@ img {
 :root {
   --wtpi-primary: #ee2c29;
   --wtpi-primary-light:#EC5B57;
-  --wtpi-body-background: #FAFAFA;
+  --wtpi-body-background: #ffffff;
+  --wtpi-footer-bg: #222222;
   --wtpi-white: #ffffff;
+  --wtpi-bottom-header-bg: #FAFAFA;
+  --wtpi-light-text: #FAFAFA;
   --wtpi-text-primary: #EE312F;
   --wtpi-text-secondary: #333333;
   --wtpi-text-color: #222222;
@@ -124,10 +139,13 @@ img {
   --wtpi-radius-sm: 10px;
   --wtpi-radius-md: 15px;
   --wtpi-radius-lg: 9999px;
-  --wtpi-spaceing:15px;
-  --wtpi-spaceing-sm:10px;
+  --wtpi-spaceing:10px;
+  --wtpi-spaceing-sm:15px;
   --wtpi-spaceing-md:20px;
+  --wtpi-spaceing-lg:25px;
+  --wtpi-header-link-spaceing: 44px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
+  --wtpi-font-size-xs: 13px;
   --wtpi-font-size: 16px;
   --wtpi-font-size-sm: 18px;
   --wtpi-font-size-md: 20px;
@@ -156,13 +174,13 @@ button {
   font-weight: var(--wtpi-font-weight);
 }
 
-.wtp-container {
+.wtpi-container {
   margin-left: auto;
   margin-right: auto;
   max-width: 1300px;
 }
 @media screen and (max-width: 1200px) {
-  .wtp-container {
+  .wtpi-container {
     width: 95%;
     margin: auto;
   }
@@ -171,8 +189,11 @@ button {
 :root {
   --wtpi-primary: #ee2c29;
   --wtpi-primary-light:#EC5B57;
-  --wtpi-body-background: #FAFAFA;
+  --wtpi-body-background: #ffffff;
+  --wtpi-footer-bg: #222222;
   --wtpi-white: #ffffff;
+  --wtpi-bottom-header-bg: #FAFAFA;
+  --wtpi-light-text: #FAFAFA;
   --wtpi-text-primary: #EE312F;
   --wtpi-text-secondary: #333333;
   --wtpi-text-color: #222222;
@@ -181,10 +202,13 @@ button {
   --wtpi-radius-sm: 10px;
   --wtpi-radius-md: 15px;
   --wtpi-radius-lg: 9999px;
-  --wtpi-spaceing:15px;
-  --wtpi-spaceing-sm:10px;
+  --wtpi-spaceing:10px;
+  --wtpi-spaceing-sm:15px;
   --wtpi-spaceing-md:20px;
+  --wtpi-spaceing-lg:25px;
+  --wtpi-header-link-spaceing: 44px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
+  --wtpi-font-size-xs: 13px;
   --wtpi-font-size: 16px;
   --wtpi-font-size-sm: 18px;
   --wtpi-font-size-md: 20px;
@@ -221,11 +245,103 @@ img {
   height: auto;
 }
 
+.wtpi-header__top {
+  background-color: var(--wtpi-primary);
+}
+.wtpi-header__top-content {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wtpi-header__top-content p {
+  font-size: var(--wtpi-font-size-xs);
+  font-weight: var(--wtpi-font-weight);
+  color: var(--wtpi-white);
+}
+.wtpi-header__bottom {
+  background: var(--wtpi-bottom-header-bg);
+}
+.wtpi-header__bottom-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+.wtpi-header__logo {
+  display: flex;
+  align-items: center;
+}
+.wtpi-header__logo svg {
+  width: 150px;
+}
+.wtpi-header__navigation {
+  display: flex;
+  align-items: center;
+  gap: var(--wtpi-header-link-spaceing);
+}
+.wtpi-header__navigation a {
+  color: var(--wtpi-text-color);
+  font-size: var(--wtpi-font-size);
+  font-weight: var(--wtpi-font-weight);
+  text-decoration: none;
+}
+.wtpi-header__navigation .active {
+  color: var(--wtpi-primary);
+  position: relative;
+}
+.wtpi-header__navigation .active::after {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  border-radius: var(--wtpi-radius-lg);
+  background: var(--wtpi-primary);
+  bottom: 0;
+  margin-bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.wtpi-header__user-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--wtpi-spaceing-lg);
+}
+.wtpi-header__login {
+  display: flex;
+  align-items: center;
+  gap: var(--wtpi-spaceing);
+}
+.wtpi-header__login svg {
+  width: 23px;
+}
+.wtpi-header__login span {
+  color: var(--wtpi-text-color);
+  font-weight: var(--wtpi-font-weight);
+  font-size: var(--wtpi-font-size);
+}
+.wtpi-header__shopping-bag {
+  display: flex;
+  align-items: center;
+  gap: var(--wtpi-spaceing);
+}
+.wtpi-header__shopping-bag svg {
+  width: 21px;
+}
+.wtpi-header__shopping-bag span {
+  color: var(--wtpi-text-color);
+  font-weight: var(--wtpi-font-weight);
+  font-size: var(--wtpi-font-size);
+}
+
 :root {
   --wtpi-primary: #ee2c29;
   --wtpi-primary-light:#EC5B57;
-  --wtpi-body-background: #FAFAFA;
+  --wtpi-body-background: #ffffff;
+  --wtpi-footer-bg: #222222;
   --wtpi-white: #ffffff;
+  --wtpi-bottom-header-bg: #FAFAFA;
+  --wtpi-light-text: #FAFAFA;
   --wtpi-text-primary: #EE312F;
   --wtpi-text-secondary: #333333;
   --wtpi-text-color: #222222;
@@ -234,10 +350,13 @@ img {
   --wtpi-radius-sm: 10px;
   --wtpi-radius-md: 15px;
   --wtpi-radius-lg: 9999px;
-  --wtpi-spaceing:15px;
-  --wtpi-spaceing-sm:10px;
+  --wtpi-spaceing:10px;
+  --wtpi-spaceing-sm:15px;
   --wtpi-spaceing-md:20px;
+  --wtpi-spaceing-lg:25px;
+  --wtpi-header-link-spaceing: 44px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
+  --wtpi-font-size-xs: 13px;
   --wtpi-font-size: 16px;
   --wtpi-font-size-sm: 18px;
   --wtpi-font-size-md: 20px;
@@ -266,13 +385,13 @@ button {
   font-weight: var(--wtpi-font-weight);
 }
 
-.wtp-container {
+.wtpi-container {
   margin-left: auto;
   margin-right: auto;
   max-width: 1300px;
 }
 @media screen and (max-width: 1200px) {
-  .wtp-container {
+  .wtpi-container {
     width: 95%;
     margin: auto;
   }
@@ -281,8 +400,11 @@ button {
 :root {
   --wtpi-primary: #ee2c29;
   --wtpi-primary-light:#EC5B57;
-  --wtpi-body-background: #FAFAFA;
+  --wtpi-body-background: #ffffff;
+  --wtpi-footer-bg: #222222;
   --wtpi-white: #ffffff;
+  --wtpi-bottom-header-bg: #FAFAFA;
+  --wtpi-light-text: #FAFAFA;
   --wtpi-text-primary: #EE312F;
   --wtpi-text-secondary: #333333;
   --wtpi-text-color: #222222;
@@ -291,10 +413,13 @@ button {
   --wtpi-radius-sm: 10px;
   --wtpi-radius-md: 15px;
   --wtpi-radius-lg: 9999px;
-  --wtpi-spaceing:15px;
-  --wtpi-spaceing-sm:10px;
+  --wtpi-spaceing:10px;
+  --wtpi-spaceing-sm:15px;
   --wtpi-spaceing-md:20px;
+  --wtpi-spaceing-lg:25px;
+  --wtpi-header-link-spaceing: 44px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
+  --wtpi-font-size-xs: 13px;
   --wtpi-font-size: 16px;
   --wtpi-font-size-sm: 18px;
   --wtpi-font-size-md: 20px;
@@ -331,11 +456,75 @@ img {
   height: auto;
 }
 
+.wtpi-footer {
+  background: var(--wtpi-footer-bg);
+}
+.wtpi-footer__content {
+  padding: 60px 0px;
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  gap: var(--wtpi-spaceing-lg);
+}
+.wtpi-footer__content-grid h5 {
+  font-size: var(--wtpi-font-size-xl);
+  font-weight: var(--wtpi-font-weight-lg);
+  color: var(--wtpi-white);
+  margin-bottom: var(--wtpi-spaceing-md);
+}
+.wtpi-footer__content-grid p {
+  font-size: var(--wtpi-font-size);
+  color: var(--wtpi-light-text);
+  font-weight: 400;
+  line-height: 25.6px;
+}
+.wtpi-footer__social-links {
+  display: flex;
+  align-items: center;
+  gap: var(--wtpi-spaceing);
+}
+.wtpi-footer__social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+  background: var(--wtpi-primary);
+}
+.wtpi-footer__bottom {
+  border-top: 0.5px solid var(--wtpi-border);
+}
+.wtpi-footer__bottom-content {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wtpi-footer__bottom-content p {
+  color: var(--wtpi-light-text);
+  font-size: var(--wtpi-font-size-xs);
+  font-weight: var(--wtpi-font-weight);
+  text-decoration: none;
+}
+.wtpi-footer__bottom-nabigation {
+  display: flex;
+  align-items: center;
+  gap: var(--wtpi-spaceing-lg);
+}
+.wtpi-footer__bottom-nabigation a {
+  color: var(--wtpi-light-text);
+  font-size: var(--wtpi-font-size-xs);
+  font-weight: var(--wtpi-font-weight);
+  text-decoration: none;
+}
+
 :root {
   --wtpi-primary: #ee2c29;
   --wtpi-primary-light:#EC5B57;
-  --wtpi-body-background: #FAFAFA;
+  --wtpi-body-background: #ffffff;
+  --wtpi-footer-bg: #222222;
   --wtpi-white: #ffffff;
+  --wtpi-bottom-header-bg: #FAFAFA;
+  --wtpi-light-text: #FAFAFA;
   --wtpi-text-primary: #EE312F;
   --wtpi-text-secondary: #333333;
   --wtpi-text-color: #222222;
@@ -344,10 +533,13 @@ img {
   --wtpi-radius-sm: 10px;
   --wtpi-radius-md: 15px;
   --wtpi-radius-lg: 9999px;
-  --wtpi-spaceing:15px;
-  --wtpi-spaceing-sm:10px;
+  --wtpi-spaceing:10px;
+  --wtpi-spaceing-sm:15px;
   --wtpi-spaceing-md:20px;
+  --wtpi-spaceing-lg:25px;
+  --wtpi-header-link-spaceing: 44px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
+  --wtpi-font-size-xs: 13px;
   --wtpi-font-size: 16px;
   --wtpi-font-size-sm: 18px;
   --wtpi-font-size-md: 20px;
@@ -376,13 +568,13 @@ button {
   font-weight: var(--wtpi-font-weight);
 }
 
-.wtp-container {
+.wtpi-container {
   margin-left: auto;
   margin-right: auto;
   max-width: 1300px;
 }
 @media screen and (max-width: 1200px) {
-  .wtp-container {
+  .wtpi-container {
     width: 95%;
     margin: auto;
   }
@@ -391,8 +583,11 @@ button {
 :root {
   --wtpi-primary: #ee2c29;
   --wtpi-primary-light:#EC5B57;
-  --wtpi-body-background: #FAFAFA;
+  --wtpi-body-background: #ffffff;
+  --wtpi-footer-bg: #222222;
   --wtpi-white: #ffffff;
+  --wtpi-bottom-header-bg: #FAFAFA;
+  --wtpi-light-text: #FAFAFA;
   --wtpi-text-primary: #EE312F;
   --wtpi-text-secondary: #333333;
   --wtpi-text-color: #222222;
@@ -401,10 +596,13 @@ button {
   --wtpi-radius-sm: 10px;
   --wtpi-radius-md: 15px;
   --wtpi-radius-lg: 9999px;
-  --wtpi-spaceing:15px;
-  --wtpi-spaceing-sm:10px;
+  --wtpi-spaceing:10px;
+  --wtpi-spaceing-sm:15px;
   --wtpi-spaceing-md:20px;
+  --wtpi-spaceing-lg:25px;
+  --wtpi-header-link-spaceing: 44px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
+  --wtpi-font-size-xs: 13px;
   --wtpi-font-size: 16px;
   --wtpi-font-size-sm: 18px;
   --wtpi-font-size-md: 20px;
