@@ -1,0 +1,36 @@
+@import "../assest/scss/base";
+
+.wtpi-menu-heading {
+  position: relative;
+  border-bottom: 1px solid var(--wtpi-border);
+  padding:var(--wtpi-spaceing-md) 0px;
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    P{
+        position: absolute;
+        font-size: var(--wtpi-font-heading);
+        font-weight: var(  --wtpi-font-weight-lg);
+        color: var(--wtpi-primary);
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    display: none;
+  }
+  @media screen and (min-width:769px) and (max-width:1200px){
+    padding:0px 0px;
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      P{
+          position: absolute;
+          font-size: var(--wtpi-font-heading);
+          font-weight: var(  --wtpi-font-weight-lg);
+          color: var(--wtpi-primary);
+      }
+    }
+  }
+}

@@ -8,7 +8,7 @@
 
   --wtpi-light-text: #FAFAFA;
   --wtpi-text-primary: #EE312F;
-  --wtpi-text-secondary: #333333;
+  --wtpi-text-secondary: #444444;
   --wtpi-text-color: #222222;
   --wtpi-border: #DDDDDD;
   
@@ -18,7 +18,9 @@
   --wtpi-radius-md: 15px;
   --wtpi-radius-lg: 9999px;
 
+
   --wtpi-spaceing:10px;
+  --wtpi-spaceing-xs:6px;
   --wtpi-spaceing-sm:15px;
   --wtpi-spaceing-md:20px;
   --wtpi-spaceing-lg:25px;
@@ -26,7 +28,7 @@
   --wtpi-header-link-spaceing: 44px;
 
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
-
+  --wtpi-menu-card-shadow: 0px 0px 10px 0px #0000001A;
   
   --wtpi-font-size-xs: 13px;
   --wtpi-font-size: 16px;
@@ -48,12 +50,30 @@
   // small device 
 
   @media screen and (max-width:768px) {
-
+    --wtpi-font-size-xs: 12px;
+    --wtpi-font-size: 14px;
+    --wtpi-font-size-sm: 16px;
+    --wtpi-font-size-md: 18px;
+    --wtpi-font-size-lg: 19px;
+    --wtpi-font-size-xl: 20px;
+  
+    --wtpi-font-heading: 34px;
+    
   }
 
   // medius device 
 
-  @media screen and (min-width:768px) and (max-width:1200px) {
+  @media screen and (min-width:769px) and (max-width:1200px) {
+    --wtpi-header-link-spaceing: 20px;
+
+    --wtpi-font-size-xs: 13px;
+    --wtpi-font-size: 15px;
+    --wtpi-font-size-sm: 17px;
+    --wtpi-font-size-md: 19px;
+    --wtpi-font-size-lg: 20px;
+    --wtpi-font-size-xl: 22px;
+  
+    --wtpi-font-heading: 36px;
 
   }
 

@@ -1,0 +1,46 @@
+@import "./base";
+
+.wtpi-bottom-navigation{
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--wtpi-bottom-header-bg);
+    box-shadow: 2px 4px 6px #000000;
+    &__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 75px;
+    }
+    .navigation-item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        padding: 0px 10px;
+        border-radius: 5px;
+        svg{
+            height: 24px;
+            width: 24px;
+            path{
+                stroke: var(--wtpi-text-color);
+            }
+        }
+    }
+    .active{
+     background: var(--wtpi-primary);
+     svg{
+        path{
+            stroke: var(--wtpi-white);
+            fill: var(--wtpi-white);
+        }
+     }
+    }
+
+    @media screen and (max-width:768px) {
+        display: block;
+    }
+}

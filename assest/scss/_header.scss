@@ -90,4 +90,71 @@
         font-size: var(--wtpi-font-size);
     }
   }
+
+  @media screen and (max-width: 768px) {
+    &__top-content {
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      :last-child{
+        display: none;
+      }
+    }
+    &__bottom {
+     display: none;
+    }
+  }
+
+  @media screen and (min-width:769px) and (max-width:1200px) {
+
+    &__top-content {
+      height: 32px;
+    }
+    &__bottom {
+      background: var(--wtpi-bottom-header-bg);
+    }
+    &__bottom-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+    }
+    &__logo {
+      display: flex;
+      align-items: center;
+      svg {
+        width: 100px;
+      }
+    }
+    &__navigation {
+      .active {
+        &::after {
+
+          height: 7px;
+          width: 7px;
+          margin-bottom: -8px;
+        }
+      }
+    }
+    &__user-actions{
+      display: flex;
+      align-items: center;
+      gap: var(--wtpi-spaceing-sm);
+    }
+    &__login{
+      display: flex;
+      align-items: center;
+      gap: var(--wtpi-spaceing-xs);
+      svg{
+          width: 18px;
+      }
+    }
+    &__shopping-bag{
+      gap: var(--wtpi-spaceing-xs);
+      svg{
+          width: 18px;
+      }
+    }
+  }
 }
