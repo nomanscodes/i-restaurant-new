@@ -1,0 +1,108 @@
+@import "../assest/scss/base";
+
+
+.wtpi-checkout{
+    padding: var(--wtpi-spaceing-lg) 0px;
+    &__content{
+        display: flex;
+        gap: var(--wtpi-spaceing-lg);
+    }
+    &__cart-items{
+        flex: 1;
+        max-width: 400px;
+        min-width: 300px;
+        background: var(--wtpi-white);
+        padding: var(--wtpi-spaceing-lg);
+        border-radius: var(--wtpi-radius-md);
+        h3{
+            font-size: var(--wtpi-font-size-lg);
+            color: var(--wtpi-text-color);
+            font-weight: var(--wtpi-font-weight-lg);
+            padding-bottom: var(--wtpi-spaceing-md);
+        }
+    }
+}
+
+.wtpi-checkout-product{
+    display: flex;
+    align-items: center;
+    gap: var(--wtpi-spaceing-sm);
+    background: var(--wtpi-card-bg);
+    padding: var(--wtpi-spaceing-sm);
+    border-radius: var(--wtpi-radius-sm);
+    &__img{
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border-radius: var(--wtpi-radius);
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__info{
+        width: 100%;
+        p{
+            font-size: var(--wtpi-font-size-xs);
+            font-weight: 500;
+            color: var(--wtpi-text-secondary);
+        }
+    }
+    &__name-price-delete {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: var(--wtpi-spaceing);
+      h3{
+        font-size: var(--wtpi-font-size);
+        font-weight: var(--wtpi-font-weight-lg);
+        color: var(--wtpi-text-color);
+        line-height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      h5{
+        font-size: var(--wtpi-font-size);
+        font-weight: var(--wtpi-font-weight-md);
+        color: var(--wtpi-text-secondary);
+        line-height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      P{
+       font-size: var(--wtpi-font-size-xs);
+      }
+    }
+    &__bottom{
+        margin-top:var(--wtpi-spaceing);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h4{
+            font-size: var(--wtpi-font-size-xs);
+            font-weight: var(--wtpi-font-weight);
+            color:var(--wtpi-primary-light)
+        }
+    }
+    &__quantity-btn{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        width:114px;
+        background: var(--wtpi-white);
+        span{
+            padding:4px 13px;
+            font-size: 20px;
+            font-weight:600px;
+            border:1px solid var(--wtpi-border);
+            color:var(--wtpi-primary);
+        }
+        a{
+            font-size: var(--wtpi-font-size);
+            color: var(--wtpi-text-color);
+            font-weight:var(--wtpi-font-weight-md)
+        }
+    }
+}
