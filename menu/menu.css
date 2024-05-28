@@ -27,6 +27,7 @@
   --wtpi-spaceing-md:20px;
   --wtpi-spaceing-lg:25px;
   --wtpi-header-link-spaceing: 44px;
+  --wtpi-input-height: 50px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-menu-card-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-font-size-xs: 13px;
@@ -50,6 +51,7 @@
     --wtpi-font-size-lg: 19px;
     --wtpi-font-size-xl: 20px;
     --wtpi-font-heading: 34px;
+    --wtpi-input-height: 40px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -71,7 +73,7 @@ button {
   --theme: var(--wtpi-primary);
   display: inline-block;
   height: 44px;
-  max-width: 350px;
+  width: auto;
   min-width: 140px;
   border: none;
   border-radius: var(--wtpi-radius);
@@ -118,6 +120,7 @@ button {
   --wtpi-spaceing-md:20px;
   --wtpi-spaceing-lg:25px;
   --wtpi-header-link-spaceing: 44px;
+  --wtpi-input-height: 50px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-menu-card-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-font-size-xs: 13px;
@@ -141,6 +144,7 @@ button {
     --wtpi-font-size-lg: 19px;
     --wtpi-font-size-xl: 20px;
     --wtpi-font-heading: 34px;
+    --wtpi-input-height: 40px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -204,6 +208,7 @@ img {
   --wtpi-spaceing-md:20px;
   --wtpi-spaceing-lg:25px;
   --wtpi-header-link-spaceing: 44px;
+  --wtpi-input-height: 50px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-menu-card-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-font-size-xs: 13px;
@@ -227,6 +232,7 @@ img {
     --wtpi-font-size-lg: 19px;
     --wtpi-font-size-xl: 20px;
     --wtpi-font-heading: 34px;
+    --wtpi-input-height: 40px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -248,7 +254,7 @@ button {
   --theme: var(--wtpi-primary);
   display: inline-block;
   height: 44px;
-  max-width: 350px;
+  width: auto;
   min-width: 140px;
   border: none;
   border-radius: var(--wtpi-radius);
@@ -295,6 +301,7 @@ button {
   --wtpi-spaceing-md:20px;
   --wtpi-spaceing-lg:25px;
   --wtpi-header-link-spaceing: 44px;
+  --wtpi-input-height: 50px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-menu-card-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-font-size-xs: 13px;
@@ -318,6 +325,7 @@ button {
     --wtpi-font-size-lg: 19px;
     --wtpi-font-size-xl: 20px;
     --wtpi-font-heading: 34px;
+    --wtpi-input-height: 40px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -529,6 +537,7 @@ img {
   --wtpi-spaceing-md:20px;
   --wtpi-spaceing-lg:25px;
   --wtpi-header-link-spaceing: 44px;
+  --wtpi-input-height: 50px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-menu-card-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-font-size-xs: 13px;
@@ -552,6 +561,7 @@ img {
     --wtpi-font-size-lg: 19px;
     --wtpi-font-size-xl: 20px;
     --wtpi-font-heading: 34px;
+    --wtpi-input-height: 40px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -573,7 +583,7 @@ button {
   --theme: var(--wtpi-primary);
   display: inline-block;
   height: 44px;
-  max-width: 350px;
+  width: auto;
   min-width: 140px;
   border: none;
   border-radius: var(--wtpi-radius);
@@ -620,6 +630,7 @@ button {
   --wtpi-spaceing-md:20px;
   --wtpi-spaceing-lg:25px;
   --wtpi-header-link-spaceing: 44px;
+  --wtpi-input-height: 50px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-menu-card-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-font-size-xs: 13px;
@@ -643,6 +654,7 @@ button {
     --wtpi-font-size-lg: 19px;
     --wtpi-font-size-xl: 20px;
     --wtpi-font-heading: 34px;
+    --wtpi-input-height: 40px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -816,6 +828,7 @@ img {
   --wtpi-spaceing-md:20px;
   --wtpi-spaceing-lg:25px;
   --wtpi-header-link-spaceing: 44px;
+  --wtpi-input-height: 50px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-menu-card-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-font-size-xs: 13px;
@@ -839,6 +852,7 @@ img {
     --wtpi-font-size-lg: 19px;
     --wtpi-font-size-xl: 20px;
     --wtpi-font-heading: 34px;
+    --wtpi-input-height: 40px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -860,7 +874,7 @@ button {
   --theme: var(--wtpi-primary);
   display: inline-block;
   height: 44px;
-  max-width: 350px;
+  width: auto;
   min-width: 140px;
   border: none;
   border-radius: var(--wtpi-radius);
@@ -907,6 +921,7 @@ button {
   --wtpi-spaceing-md:20px;
   --wtpi-spaceing-lg:25px;
   --wtpi-header-link-spaceing: 44px;
+  --wtpi-input-height: 50px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-menu-card-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-font-size-xs: 13px;
@@ -930,6 +945,7 @@ button {
     --wtpi-font-size-lg: 19px;
     --wtpi-font-size-xl: 20px;
     --wtpi-font-heading: 34px;
+    --wtpi-input-height: 40px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -968,6 +984,7 @@ button {
   --wtpi-spaceing-md:20px;
   --wtpi-spaceing-lg:25px;
   --wtpi-header-link-spaceing: 44px;
+  --wtpi-input-height: 50px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-menu-card-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-font-size-xs: 13px;
@@ -991,6 +1008,7 @@ button {
     --wtpi-font-size-lg: 19px;
     --wtpi-font-size-xl: 20px;
     --wtpi-font-heading: 34px;
+    --wtpi-input-height: 40px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -1012,7 +1030,7 @@ button {
   --theme: var(--wtpi-primary);
   display: inline-block;
   height: 44px;
-  max-width: 350px;
+  width: auto;
   min-width: 140px;
   border: none;
   border-radius: var(--wtpi-radius);
@@ -1059,6 +1077,7 @@ button {
   --wtpi-spaceing-md:20px;
   --wtpi-spaceing-lg:25px;
   --wtpi-header-link-spaceing: 44px;
+  --wtpi-input-height: 50px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-menu-card-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-font-size-xs: 13px;
@@ -1082,6 +1101,7 @@ button {
     --wtpi-font-size-lg: 19px;
     --wtpi-font-size-xl: 20px;
     --wtpi-font-heading: 34px;
+    --wtpi-input-height: 40px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -1189,6 +1209,7 @@ img {
   --wtpi-spaceing-md:20px;
   --wtpi-spaceing-lg:25px;
   --wtpi-header-link-spaceing: 44px;
+  --wtpi-input-height: 50px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-menu-card-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-font-size-xs: 13px;
@@ -1212,6 +1233,7 @@ img {
     --wtpi-font-size-lg: 19px;
     --wtpi-font-size-xl: 20px;
     --wtpi-font-heading: 34px;
+    --wtpi-input-height: 40px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -1233,7 +1255,7 @@ button {
   --theme: var(--wtpi-primary);
   display: inline-block;
   height: 44px;
-  max-width: 350px;
+  width: auto;
   min-width: 140px;
   border: none;
   border-radius: var(--wtpi-radius);
@@ -1280,6 +1302,7 @@ button {
   --wtpi-spaceing-md:20px;
   --wtpi-spaceing-lg:25px;
   --wtpi-header-link-spaceing: 44px;
+  --wtpi-input-height: 50px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-menu-card-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-font-size-xs: 13px;
@@ -1303,6 +1326,7 @@ button {
     --wtpi-font-size-lg: 19px;
     --wtpi-font-size-xl: 20px;
     --wtpi-font-heading: 34px;
+    --wtpi-input-height: 40px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -1404,6 +1428,7 @@ img {
   --wtpi-spaceing-md:20px;
   --wtpi-spaceing-lg:25px;
   --wtpi-header-link-spaceing: 44px;
+  --wtpi-input-height: 50px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-menu-card-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-font-size-xs: 13px;
@@ -1427,6 +1452,7 @@ img {
     --wtpi-font-size-lg: 19px;
     --wtpi-font-size-xl: 20px;
     --wtpi-font-heading: 34px;
+    --wtpi-input-height: 40px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -1448,7 +1474,7 @@ button {
   --theme: var(--wtpi-primary);
   display: inline-block;
   height: 44px;
-  max-width: 350px;
+  width: auto;
   min-width: 140px;
   border: none;
   border-radius: var(--wtpi-radius);
@@ -1495,6 +1521,7 @@ button {
   --wtpi-spaceing-md:20px;
   --wtpi-spaceing-lg:25px;
   --wtpi-header-link-spaceing: 44px;
+  --wtpi-input-height: 50px;
   --wtpi-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-menu-card-shadow: 0px 0px 10px 0px #0000001A;
   --wtpi-font-size-xs: 13px;
@@ -1518,6 +1545,7 @@ button {
     --wtpi-font-size-lg: 19px;
     --wtpi-font-size-xl: 20px;
     --wtpi-font-heading: 34px;
+    --wtpi-input-height: 40px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
