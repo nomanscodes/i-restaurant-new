@@ -755,6 +755,11 @@ img {
   font-weight: var(--wtpi-font-weight);
   text-decoration: none;
 }
+@media screen and (max-width: 768px) {
+  .wtpi-footer {
+    padding-bottom: 75px;
+  }
+}
 @media screen and (max-width: 1200px) {
   .wtpi-footer__content {
     padding: 40px 0px;
@@ -1367,37 +1372,37 @@ img {
   height: auto;
 }
 
-.wtpi-menu-heading {
+.wtpi-page-heading {
   position: relative;
   border-bottom: 1px solid var(--wtpi-border);
   padding: var(--wtpi-spaceing-md) 0px;
 }
-.wtpi-menu-heading div {
+.wtpi-page-heading div {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.wtpi-menu-heading div P {
+.wtpi-page-heading div P {
   position: absolute;
   font-size: var(--wtpi-font-heading);
   font-weight: var(--wtpi-font-weight-lg);
   color: var(--wtpi-primary);
 }
 @media screen and (max-width: 768px) {
-  .wtpi-menu-heading {
+  .wtpi-page-heading {
     display: none;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
-  .wtpi-menu-heading {
+  .wtpi-page-heading {
     padding: 0px 0px;
   }
-  .wtpi-menu-heading div {
+  .wtpi-page-heading div {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .wtpi-menu-heading div P {
+  .wtpi-page-heading div P {
     position: absolute;
     font-size: var(--wtpi-font-heading);
     font-weight: var(--wtpi-font-weight-lg);

@@ -62,8 +62,11 @@
     }
   }
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width:768px) {
+    padding-bottom: 75px;
+  }
 
+  @media screen and (max-width: 1200px) {
     &__content {
       padding: 40px 0px;
       grid-template-columns: repeat(2, 1fr);
